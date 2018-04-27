@@ -3,9 +3,14 @@ This is a simple Bash script to print a table of Prokka annotation stats (output
 
 # Usage
 ```
-$ ./Prokkastats FILENAME.txt
+$ ./Prokkastats.sh FILENAME.txt
 ```
 You can save the file by 
 ```
-$ ./Prokkastats FILENAME.txt > NEW_OUTPUT
+$ ./Prokkastats.sh FILENAME.txt > NEW_OUTPUT
+```
+It will generate on the std outputs somethings like this:
+```
+contigs bases   tRNA    rRNA    CDS     gene
+200     3472146 60      8       3162    3231
 ```
